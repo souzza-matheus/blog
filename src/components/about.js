@@ -15,7 +15,7 @@ const about = () => {
         <div className="social-links">
           <a href="https://www.linkedin.com/in/matheus-souza-a07200200/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
           <a href="https://github.com/souzza-matheus" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
-          <a href="/seu_curriculo.pdf" download className="btn">Download CV</a>
+          <a href="/curriculo-matheus-souza.pdf" download className="btn">Download CV</a>
         </div>
       </div>
     </section>
