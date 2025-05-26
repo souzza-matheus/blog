@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="#about" className="logo">[Seu Nome]</a>
+        <a href="#about" className="logo">matheus Souza</a>
 
         <button className="menu-toggle" onClick={toggleMenu} aria-label="Abrir/Fechar Menu">
           <span className="hamburger"></span>
