@@ -1,17 +1,30 @@
-import React from 'react';
-import '../styles/header.css';
+import React, { useState } from 'react';
+import './Header.css';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="header">
       <nav className="navbar">
-        <a href="#about" className="logo">Matheus</a>
-        <ul className="nav-links">
-          <li><a href="#about">Sobre Mim</a></li>
-          <li><a href="#skills">Habilidades</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#experience">Experiência</a></li> {/* Adicione se for usar */}
-          <li><a href="#contact">Contato</a></li>
+        <a href="#about" className="logo">[Seu Nome]</a>
+
+        <button className="menu-toggle" onClick={toggleMenu} aria-label="Abrir/Fechar Menu">
+          <span className="hamburger"></span>
+          <span className="hamburger"></span>
+          <span className="hamburger"></span>
+        </button>
+
+        <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <li><a href="#about" onClick={toggleMenu}>Sobre Mim</a></li>
+          <li><a href="#skills" onClick={toggleMenu}>Habilidades</a></li>
+          <li><a href="#projects" onClick={toggleMenu}>Projetos</a></li>
+          <li><a href="#experience" onClick={toggleMenu}>Experiência</a></li>
+          <li><a href="#contact" onClick={toggleMenu}>Contato</a></li>
         </ul>
       </nav>
     </header>
