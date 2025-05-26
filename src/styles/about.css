@@ -1,0 +1,33 @@
+
+.about-section {
+    background-color: var(--card-bg);
+    padding: 6rem 0;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.3);
+  }
+  
+  .about-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+  }
+  
+  .about-section .lead {
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .social-links {
+    margin-top: 2rem;
+  }
