@@ -64,9 +64,9 @@ const Contact = () => {
         </form>
         <div className="contact-info">
           <p>Ou me encontre em:</p>
-          <p>Email: <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a></p>
-          <p>LinkedIn: <a href="https://linkedin.com/in/seuperfil" target="_blank" rel="noopener noreferrer">linkedin.com/in/seuperfil</a></p>
-          <p>GitHub: <a href="https://github.com/seuperfil" target="_blank" rel="noopener noreferrer">github.com/seuperfil</a></p>
+          <p>Email: <a href="matheus.ramirez019@gmail.com">matheus.ramirez019@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/matheus-souza-a07200200/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/matheus-souza-a07200200</a></p>
+          <p>GitHub: <a href="https://github.com/souzza-matheus" target="_blank" rel="noopener noreferrer">github.com/souzza-matheus</a></p>
         </div>
       </div>
     </section>

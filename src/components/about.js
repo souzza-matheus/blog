@@ -13,8 +13,8 @@ const about = () => {
         Minha expertise principal é em backend, mas estou sempre aberto a desafios e oportunidades em diversas tecnologias e stacks, buscando aprendizado contínuo e crescimento profissional.
         </p>
         <div className="social-links">
-          <a href="https://linkedin.com/in/seuperfil" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
-          <a href="https://github.com/seuperfil" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
+          <a href="https://www.linkedin.com/in/matheus-souza-a07200200/" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">LinkedIn</a>
+          <a href="https://github.com/souzza-matheus" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
           <a href="/seu_curriculo.pdf" download className="btn">Download CV</a>
         </div>
       </div>

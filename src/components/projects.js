@@ -1,34 +1,18 @@
 import React from 'react';
 import '../styles/projects.css';
+import blogImg from '../assets/blog.png';
 
 const projectsData = [
   {
     id: 1,
-    title: 'Projeto E-commerce React',
-    description: 'Um e-commerce completo construído com React, Redux para gerenciamento de estado e Firebase para autenticação e banco de dados.',
-    image: 'https://via.placeholder.com/400x250?text=Projeto+Ecommerce', // Substitua por sua imagem real
-    technologies: ['React', 'Redux', 'Firebase', 'Styled Components'],
-    githubLink: 'https://github.com/seuperfil/projeto-ecommerce',
-    liveLink: 'https://seunome.com/ecommerce-live', // Opcional
-  },
-  {
-    id: 2,
     title: 'Blog Pessoal com Next.js',
-    description: 'Um blog responsivo desenvolvido com Next.js para SEO aprimorado e Markdown para o conteúdo das postagens.',
-    image: 'https://via.placeholder.com/400x250?text=Projeto+Blog', // Substitua por sua imagem real
-    technologies: ['Next.js', 'Markdown', 'CSS Modules'],
-    githubLink: 'https://github.com/seuperfil/blog-nextjs',
-    liveLink: 'https://seunome.com/blog-live', // Opcional
-  },
-  {
-    id: 3,
-    title: 'API RESTful com Node.js',
-    description: 'Uma API RESTful para um sistema de gerenciamento de tarefas, utilizando Node.js, Express e MongoDB.',
-    image: 'https://via.placeholder.com/400x250?text=Projeto+API', // Substitua por sua imagem real
-    technologies: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose'],
-    githubLink: 'https://github.com/seuperfil/api-tasks',
-    liveLink: null,
-  },
+    description: 'Um blog responsivo desenvolvido com React.js e Markdown para o conteúdo das postagens.',
+    image: blogImg,
+     technologies: ['Next.js', 'React.js', 'Markdown', 'CSS'],
+    githubLink: 'https://github.com/souzza-matheus/blog',
+    liveLink: 'https://seunome.com/blog-live',
+  }
+
 ];
 
 const Projects = () => {
