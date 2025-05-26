@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 💻 Meu Portfólio de Desenvolvedor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o meu portfólio pessoal, construído com React, para apresentar minhas habilidades, projetos e experiências profissionais como Desenvolvedor Backend com foco em Java e Spring, além de demonstrar minha versatilidade e abertura para explorar diversas tecnologias.
 
-## Available Scripts
+## ✨ Visão Geral
 
-In the project directory, you can run:
+O objetivo deste portfólio é ser uma vitrine interativa das minhas competências e trabalhos. Ele é projetado para ser responsivo, proporcionando uma excelente experiência de usuário em dispositivos de desktop e mobile.
 
-### `npm start`
+## 🚀 Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Frontend:**
+    * [React.js](https://react.dev/) - Biblioteca JavaScript para construção de interfaces de usuário.
+    * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+    * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS) - Com estilos modulares para cada componente.
+    * JavaScript (ES6+)
+    * Fontes do Google Fonts (`Poppins`)
 
-### `npm test`
+## 📋 Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Header Fixo:** Navegação persistente no topo da página.
+* **Seção "Sobre Mim":** Breve introdução sobre quem sou e minhas paixões em desenvolvimento.
+* **Seção "Habilidades":** Detalhamento das minhas competências técnicas, com foco em Backend (Java, Spring) e Bancos de Dados, mas também mencionando ferramentas e outras linguagens.
+* **Seção "Projetos":** Apresentação dos meus principais trabalhos, com descrições, tecnologias utilizadas e links para o código-fonte (GitHub) e para a aplicação em produção (se aplicável).
+* **Seção "Experiência":** Descrição detalhada da minha trajetória profissional, destacando atribuições em desenvolvimento, suporte, análise de banco de dados, testes e levantamento de requisitos.
+* **Seção "Contato":** Formulário para facilitar a comunicação e links diretos para minhas redes profissionais.
+* **Design Responsivo:** O layout se adapta a diferentes tamanhos de tela (desktops, tablets e smartphones).
 
-### `npm run build`
+## 📦 Como Rodar o Projeto Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Siga os passos abaixo para configurar e executar este projeto em sua máquina local.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Certifique-se de ter o [Node.js](https://nodejs.org/pt-br/) e o [npm](https://www.npmjs.com/) (ou [Yarn](https://yarnpkg.com/)) instalados.
 
-### `npm run eject`
+### Instalação
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+    ```
+2.  Navegue até a pasta do projeto:
+    ```bash
+    cd SEU_REPOSITORIO
+    ```
+3.  Instale as dependências:
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Executando o Servidor de Desenvolvimento
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Para iniciar o aplicativo em modo de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+# ou
+yarn start
