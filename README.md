@@ -39,7 +39,7 @@ Certifique-se de ter o [Node.js](https://nodejs.org/pt-br/) e o [npm](https://ww
 
 1.  Clone este repositório:
     ```bash
-    git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+    git clone git@github.com:souzza-matheus/blog.git
     ```
 2.  Navegue até a pasta do projeto:
     ```bash
