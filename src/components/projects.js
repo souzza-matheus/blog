@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/projects.css';
 import blogImg from '../assets/blog.png';
+import ihcImg from '../assets/ihcGame.png'
 
 const projectsData = [
   {
@@ -8,9 +9,19 @@ const projectsData = [
     title: 'Blog Pessoal com Next.js',
     description: 'Um blog responsivo desenvolvido com React.js e Markdown para o conteúdo das postagens.',
     image: blogImg,
-     technologies: ['Next.js', 'React.js', 'Markdown', 'CSS'],
+    technologies: ['React.js', 'Markdown', 'CSS'],
     githubLink: 'https://github.com/souzza-matheus/blog',
-    liveLink: 'https://seunome.com/blog-live',
+    liveLink: 'https://souzza-matheus.github.io/blog/',
+  },
+  {
+    id:2,
+    title:'IHC Game',
+    description:'Este é um jogo de tabuleiro web interativo onde você assume o papel de um Analista de IHC (Interação Humano-Computador), viajando por diferentes empresas para resolver problemas de usabilidade na forma de quizzes de múltipla escolha.',
+    image:ihcImg,
+    technologies: ['React.js', 'Markdown', 'CSS'],
+    githubLink: 'https://github.com/souzza-matheus/ihc-quiz',
+    liveLink: 'https://souzza-matheus.github.io/ihc-quiz/',
+
   }
 
 ];
