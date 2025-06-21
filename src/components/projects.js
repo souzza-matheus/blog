@@ -2,15 +2,16 @@ import React from 'react';
 import '../styles/projects.css';
 import blogImg from '../assets/blog.png';
 import ihcImg from '../assets/ihcGame.png'
+import emailImg from '../assets/email.jpg'
 
 const projectsData = [
-  {
+   {
     id: 1,
-    title: 'Blog Pessoal com Next.js',
-    description: 'Um blog responsivo desenvolvido com React.js e Markdown para o conteúdo das postagens.',
-    image: blogImg,
-    technologies: ['React.js', 'Markdown', 'CSS'],
-    githubLink: 'https://github.com/souzza-matheus/blog',
+    title: 'Email sender',
+    description: 'Este projeto é uma API de envio de e-mails construída em Spring Boot, utilizando arquitetura limpa, autenticação com JWT, controle de rate limit com Redis e integração com serviços externos de SMTP.',
+    image: emailImg,
+    technologies: ['Java', 'Spring', 'Redis'],
+    githubLink: 'https://github.com/souzza-matheus/email-sender',
     liveLink: 'https://souzza-matheus.github.io/blog/',
   },
   {

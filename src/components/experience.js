@@ -4,7 +4,7 @@ import '../styles/experience.css';
 const experiences = [
   {
     id: 1,
-    title: 'Analista de sistemas computadorizados',
+    title: 'Analista de suporte',
     company: 'Brafel Informatica',
     period: 'Dezembro 2022 - Junho 2025',
     description: [
