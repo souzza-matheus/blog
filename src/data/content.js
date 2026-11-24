@@ -22,7 +22,6 @@ export const highlights = [
   { value: '100+', label: 'clientes atendidos em suporte' },
   { value: 'SAP B1', label: 'integrações via Service Layer' },
   { value: 'NF-e · NFS-e · NFCom', label: 'documentos fiscais eletrônicos' },
-];
 
 export const skills = [
   {
@@ -65,7 +64,7 @@ export const projects = [
   {
     title: 'GymVision (TCC)',
     description:
-      'Sistema distribuído de análise biomecânica em tempo real com visão computacional, desenvolvido como Trabalho de Conclusão de Curso em Engenharia de Computação no IFMG, com app Android.',
+      'Sistema distribuído de análise biomecânica em tempo real com visão computacional, desenvolvido como Trabalho de Conclusão de Curso em Sistemas De Informação no IFMG, com app Android.',
     image: gymvisionImg,
     imageFit: 'contain',
     technologies: ['FastAPI', 'Spring Boot / Kotlin', 'NestJS', 'RabbitMQ', 'Docker', 'Android'],
@@ -115,6 +114,6 @@ export const experiences = [
 ];
 
 export const education = [
-  { title: 'Engenharia de Computação', place: 'IFMG — Campus Ouro Branco' },
-  { title: 'Google Project Management Certificate', place: 'Em andamento' },
+  { title: 'Sistemas de Informação', place: 'IFMG — Campus Ouro Branco' },
+  { title: 'Google Project Management Certificate'},
 ];
