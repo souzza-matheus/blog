@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blog/static/css/main.69dcb625.css",
-    "main.js": "/blog/static/js/main.ab2aa852.js",
+    "main.js": "/blog/static/js/main.357a1d31.js",
     "static/media/ihcGame.webp": "/blog/static/media/ihcGame.98b14dbd5e8540b427fd.webp",
     "static/media/klipper-preview.webp": "/blog/static/media/klipper-preview.756f6bafa61d45d528b3.webp",
     "static/media/estokar-preview.webp": "/blog/static/media/estokar-preview.3f9264152b4be3dfae62.webp",
@@ -10,10 +10,10 @@
     "static/media/email.webp": "/blog/static/media/email.ec946f290253dacd0125.webp",
     "index.html": "/blog/index.html",
     "main.69dcb625.css.map": "/blog/static/css/main.69dcb625.css.map",
-    "main.ab2aa852.js.map": "/blog/static/js/main.ab2aa852.js.map"
+    "main.357a1d31.js.map": "/blog/static/js/main.357a1d31.js.map"
   },
   "entrypoints": [
     "static/css/main.69dcb625.css",
-    "static/js/main.ab2aa852.js"
+    "static/js/main.357a1d31.js"
   ]
 }
