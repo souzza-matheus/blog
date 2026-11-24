@@ -20,7 +20,7 @@ export const profile = {
 
 export const highlights = [
   { value: '100+', label: 'clientes atendidos em suporte' },
-  { value: 'SAP B1', label: 'integrações via Service Layer' },
+  { value: 'Gestáo de projetos', label: 'Da analise de requisitos até o acompanhamento pós go-live' },
   { value: 'NF-e · NFS-e · NFCom', label: 'documentos fiscais eletrônicos' },
 
 export const skills = [
@@ -30,7 +30,7 @@ export const skills = [
   },
   {
     title: 'ERP & Fiscal',
-    items: ['SAP Business One', 'Service Layer (OData)', 'NF-e', 'NFS-e', 'NFCom', 'Reforma tributária (IBS/CBS)', 'JasperReports'],
+    items: ['SAP Business One', 'NF-e', 'NFS-e', 'NFCom', 'Reforma tributária (IBS/CBS)', 'JasperReports'],
   },
   {
     title: 'Desenvolvimento',
