@@ -20,8 +20,10 @@ export const profile = {
 
 export const highlights = [
   { value: '100+', label: 'clientes atendidos em suporte' },
-  { value: 'Gestáo de projetos', label: 'Da analise de requisitos até o acompanhamento pós go-live' },
+  { value: 'Gestão de projetos', label: 'Da análise de requisitos até o acompanhamento pós go-live' },
   { value: 'NF-e · NFS-e · NFCom', label: 'documentos fiscais eletrônicos' },
+];
+
 
 export const skills = [
   {
