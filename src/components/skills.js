@@ -1,53 +1,24 @@
 import React from 'react';
 import '../styles/skills.css';
+import { skills } from '../data/content';
 
-const Skills = () => {
-  const frontEndSkills = ['HTML5', 'CSS3', 'JavaScript', 'React', 'Next.js', 'Bootstrap'];
-  const backEndSkills = ['Node.js', 'Express.js', 'Java', 'Spring Boot', 'RESTful APIs', 'RabbitMq', 'Spring Data JPA', 'Kafka'];
-  const databases = ['MongoDB', 'PostgreSQL', 'MySQL'];
-  const tools = ['Git', 'GitHub', 'Docker', 'Aws', 'Git Lab', 'Kubernets'];
-
-  return (
-    <section id="skills" className="skills-section">
-      <div className="container">
-        <h2>Minhas Habilidades</h2>
-        <div className="skills-grid">
-          <div className="skill-category">
-            <h3>Front-end</h3>
+const Skills = () => (
+  <section id="skills" className="skills-section">
+    <div className="container">
+      <h2 className="section-title">Habilidades</h2>
+      <p className="section-subtitle">Do levantamento de requisitos ao código e ao banco de dados.</p>
+      <div className="skills-grid">
+        {skills.map((cat) => (
+          <div className="skill-category" key={cat.title}>
+            <h3>{cat.title}</h3>
             <ul>
-              {frontEndSkills.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
+              {cat.items.map((s) => <li key={s}>{s}</li>)}
             </ul>
           </div>
-          <div className="skill-category">
-            <h3>Back-end</h3>
-            <ul>
-              {backEndSkills.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="skill-category">
-            <h3>Bancos de Dados</h3>
-            <ul>
-              {databases.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="skill-category">
-            <h3>Ferramentas & Outros</h3>
-            <ul>
-              {tools.map((skill, index) => (
-                <li key={index}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default Skills;

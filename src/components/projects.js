@@ -1,60 +1,40 @@
 import React from 'react';
 import '../styles/projects.css';
-import blogImg from '../assets/blog.png';
-import ihcImg from '../assets/ihcGame.png'
-import emailImg from '../assets/email.jpg'
+import { projects } from '../data/content';
 
-const projectsData = [
-   {
-    id: 1,
-    title: 'Email sender',
-    description: 'Este projeto é uma API de envio de e-mails construída em Spring Boot, utilizando arquitetura limpa, autenticação com JWT, controle de rate limit com Redis e integração com serviços externos de SMTP.',
-    image: emailImg,
-    technologies: ['Java', 'Spring', 'Redis'],
-    githubLink: 'https://github.com/souzza-matheus/email-sender',
-    liveLink: 'https://souzza-matheus.github.io/blog/',
-  },
-  {
-    id:2,
-    title:'IHC Game',
-    description:'Este é um jogo de tabuleiro web interativo onde você assume o papel de um Analista de IHC (Interação Humano-Computador), viajando por diferentes empresas para resolver problemas de usabilidade na forma de quizzes de múltipla escolha.',
-    image:ihcImg,
-    technologies: ['React.js', 'Markdown', 'CSS'],
-    githubLink: 'https://github.com/souzza-matheus/ihc-quiz',
-    liveLink: 'https://souzza-matheus.github.io/ihc-quiz/',
-
-  }
-
-];
-
-const Projects = () => {
-  return (
-    <section id="projects" className="projects-section">
-      <div className="container">
-        <h2>Meus Projetos</h2>
-        <div className="projects-grid">
-          {projectsData.map(project => (
-            <div className="project-card" key={project.id}>
-              <img src={project.image} alt={project.title} className="project-image" />
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+const Projects = () => (
+  <section id="projects" className="projects-section">
+    <div className="container">
+      <h2 className="section-title">Projetos</h2>
+      <p className="section-subtitle">Produtos próprios, trabalhos acadêmicos e estudos.</p>
+      <div className="projects-grid">
+        {projects.map((p) => (
+          <article className={`project-card ${p.featured ? 'featured' : ''}`} key={p.title}>
+            {p.image ? (
+              <img src={p.image} alt={`Captura de tela do projeto ${p.title}`} className={`project-image ${p.imageFit === 'contain' ? 'contain' : ''}`} loading="lazy" />
+            ) : (
+              <div className="project-image placeholder" aria-hidden="true">{p.title.charAt(0)}</div>
+            )}
+            <div className="project-body">
+              <h3>{p.title}</h3>
+              <p>{p.description}</p>
               <div className="project-techs">
-                {project.technologies.map((tech, index) => (
-                  <span key={index} className="tech-tag">{tech}</span>
-                ))}
+                {p.technologies.map((t) => <span key={t} className="tech-tag">{t}</span>)}
               </div>
               <div className="project-links">
-                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">GitHub</a>
-                {project.liveLink && (
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="btn">Ver Projeto</a>
+                {p.liveLink && (
+                  <a href={p.liveLink} target="_blank" rel="noopener noreferrer" className="btn btn-small">Ver projeto</a>
+                )}
+                {p.githubLink && (
+                  <a href={p.githubLink} target="_blank" rel="noopener noreferrer" className="btn btn-small btn-outline">Código</a>
                 )}
               </div>
             </div>
-          ))}
-        </div>
+          </article>
+        ))}
       </div>
-    </section>
-  );
-};
+    </div>
+  </section>
+);
 
 export default Projects;
